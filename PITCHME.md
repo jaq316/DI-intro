@@ -68,6 +68,14 @@ A dependent class have properties, where all dependencies are set.
 
 ---
 
+## Dependencies should be interfaces
+
+@ul
+- We want ***ALL*** of out dependencies to be based on an interface
+- Any service code you write should have an interface
+- Other classes in your app will rely only on the interface and not the concrete implementation of the interface
+@ulend
+
 ## What Dependency Injection looks like
 
 ---
