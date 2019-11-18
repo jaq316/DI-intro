@@ -85,3 +85,8 @@ A dependent class have properties, where all dependencies are set.
 ---
 
 ## Payoffs of Dependency Injection
+
+
+---
+
+# Thank you!
