@@ -42,6 +42,8 @@ A dependent class has a constructor, where all dependencies are set. They will b
 
 +++?code=samples/constructor-injection.cs&lang=cs
 
++++
+
 ### Property Injection
 
 A dependent class have properties, where all dependencies are set.
