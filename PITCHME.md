@@ -29,6 +29,18 @@
 
 ## Different flavors of Dependency Injection
 
++++
+
+### Contructor Injection
+
+A dependent class has a constructor, where all dependencies are set. They will be provided by the IoC container
+
++++
+
+### Property Injection
+
+A dependent class have properties, where all dependencies are set.
+
 ---
 
 ## Interfaces & Classes
