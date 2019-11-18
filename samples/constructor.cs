@@ -1,12 +1,5 @@
 public class Driver
 {
-    readonly IGearLever _gearLever;
-    readonly IClutchPedal _clutchPedal;
-    readonly IThrottlePedal _throttlePedal;
-    readonly IBreakPedal _breakPedal;
-    readonly IRevCounter _revCounter;
-    readonly ISpeedometer _speedometer;
-
     public Driver(
             IGearLever gearLever, 
             IClutchPedal clutchPedal, 
@@ -23,6 +16,13 @@ public class Driver
             _revCounter - revCounter
             _speedometer = speedometer;
     }
+
+    readonly IGearLever _gearLever;
+    readonly IClutchPedal _clutchPedal;
+    readonly IThrottlePedal _throttlePedal;
+    readonly IBreakPedal _breakPedal;
+    readonly IRevCounter _revCounter;
+    readonly ISpeedometer _speedometer;
 
     public void Accelerate(){        
         _clutchPedal.In();

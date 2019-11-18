@@ -42,7 +42,7 @@ A dependent class has a constructor, where all dependencies are set. They will b
 
 +++?code=samples/constructor.cs&lang=cs zoom-12
 
-@[11-16, zoom-17](Constructor parameters provided by the DI container)
+@[4-9, zoom-17](Constructor parameters provided by the DI container)
 
 +++
 

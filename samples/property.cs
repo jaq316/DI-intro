@@ -3,7 +3,7 @@ public class Driver
     public IGearLever _gearLever { get; set; }
     public IClutchPedal _clutchPedal { get; set; }
     public IThrottlePedal _throttlePedal { get; set; }
-    public IBreakPedal BreakPedal { get; set; }
+    public IBreakPedal _breakPedal { get; set; }
     public IRevCounter _revCounter { get; set; }
     public ISpeedometer _speedometer { get; set; }
 
