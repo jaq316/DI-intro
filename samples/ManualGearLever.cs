@@ -1,7 +1,7 @@
 class ManualGearLever : IGearLeaver {
 
     readonly IGearBox GearBox;
-    public PaddleShiftGearLever (IGearBox gearBox) {
+    public ManualGearLever (IGearBox gearBox) {
         GearBox = gearBox;
     }
 
