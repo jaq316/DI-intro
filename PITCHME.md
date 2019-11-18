@@ -165,4 +165,8 @@ A dependent class have properties, where all dependencies are set.
 
 ---
 
+# Questions?
+
+---
+
 # Thank you!
