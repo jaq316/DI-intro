@@ -103,12 +103,14 @@ A dependent class have properties, where all dependencies are set.
 
 ## The Dependency Injection Container
 
+@snap[midpoint span-100 text-06]
 @ul
 - The container is the very heart of your DI implementation
 - Interfaces are mapped to concrete types so that the container can provide the correct implementation when an interface is required
 - Containers typically allow you to specify the "lifetime" of any object it knows about (Singleton, one instance per request, etc.)
 - The container is the thing that will new up all of your dependencies as they are needed
 @ulend
+@snapend
 
 
 +++
@@ -116,7 +118,7 @@ A dependent class have properties, where all dependencies are set.
 # DI Magic
 
 @ul
-- Then you need some service in a class, just add the interface to its constructor. The container will magically provide it.
+- When you need some service in a class, just add the interface to its constructor. The container will magically provide it.
 - It is **AMAZING**!
 @ulend
 +++
