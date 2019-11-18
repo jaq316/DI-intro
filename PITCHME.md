@@ -82,9 +82,9 @@ A dependent class have properties, where all dependencies are set.
 
 +++?code=samples/constructor-before-di.cs&lang=cs zoom-12
 
-### Before DI
-
 @[4-9, zoom-17](Notice all the "new" keywords?)
+
+### Before DI
 
 +++?code=samples/constructor.cs&lang=cs zoom-12
 
