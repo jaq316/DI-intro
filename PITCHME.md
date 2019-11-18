@@ -40,7 +40,7 @@
 
 A dependent class has a constructor, where all dependencies are set. They will be provided by the IoC container
 
-+++
++++?code=samples/constructir-injection.cs&lang=cs
 
 ### Property Injection
 
