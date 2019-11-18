@@ -29,6 +29,11 @@
 
 ## Different flavors of Dependency Injection
 
+@ul
+- Contructor Injection
+- Property Injection
+@ulend
+
 +++
 
 ### Contructor Injection
