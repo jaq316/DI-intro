@@ -40,7 +40,7 @@
 
 A dependent class has a constructor, where all dependencies are set. They will be provided by the DI container
 
-+++?code=samples/constructor-injection.cs&lang=cs
++++?code=samples/constructor.cs&lang=cs
 
 @[11-16, zoom-17](Constructor parameters provided by the DI container)
 
@@ -50,7 +50,7 @@ A dependent class has a constructor, where all dependencies are set. They will b
 
 A dependent class have properties, where all dependencies are set.
 
-+++?code=samples/property-injection.cs&lang=cs
++++?code=samples/property.cs&lang=cs
 
 @[3-8, zoom-17](Properties are set by the DI container)
 
