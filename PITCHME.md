@@ -101,7 +101,9 @@ A dependent class have properties, where all dependencies are set.
 
 ---
 
+@snap[north span-100 ]
 ## The Dependency Injection Container
+@snapend
 
 @snap[midpoint span-100 text-06]
 @ul
