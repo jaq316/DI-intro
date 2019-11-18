@@ -11,4 +11,4 @@
 -	Unit test example
 -	Payoffs of Dependency Injection
 
-You can view the slides at https://gitpitch.com/jaq316/di-into
+You can view the slides at https://gitpitch.com/jaq316/di-intro
