@@ -13,7 +13,7 @@ public class Driver
             _clutchPedal = clutchPedal;    
             _throttlePedal = throttlePedal;    
             _breakPedal = breakPedal;    
-            _revCounter - revCounter;
+            _revCounter = revCounter;
             _speedometer = speedometer;
     }
 

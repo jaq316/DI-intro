@@ -5,7 +5,7 @@ public class Driver
             _clutchPedal = new ClutchPedal();    
             _throttlePedal = new ThrottlePedal();    
             _breakPedal = new BreakPedal();    
-            _revCounter - new RevCounter();
+            _revCounter = new RevCounter();
             _speedometer = new Speedometer();
     }
 
