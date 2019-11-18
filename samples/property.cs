@@ -33,7 +33,7 @@ public class Driver
             _breakPedal.In();
         }
 
-        _gearLever.Reset();
+        _gearLever.ShiftTo("1");
 
     }
 }
