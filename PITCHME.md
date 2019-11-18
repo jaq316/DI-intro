@@ -94,9 +94,39 @@ A dependent class have properties, where all dependencies are set.
 
 ## Why use Dependency Injection?
 
+@ul
+- Makes writing unit test code super easy. No complex setups! (Use mocks when unit testing)
+- Promotes writing code where the services your code require can be **loosely coupled** with your code
+@ulend
+
 ---
 
 ## The Dependency Injection Container
+
+@ul
+- The container is the very heart of your DI implementation
+- Interfaces are mapped to concrete types so that the container can provide the correct implementation when an interface is required
+- Containers typically allow you to specify the "lifetime" of any object it knows about (Singleton, one instance per request, etc.)
+- The container is the thing that will new up all of your dependencies as they are needed
+@ulend
+
+
++++
+
+# DI Magic
+
+@ul
+- Then you need some service in a class, just add the interface to its constructor. The container will magically provide it.
+- It is **AMAZING**!
+@ulend
++++
+
+## But how does the DI Container know what concrete types to provide?
+
+@ul
+- ### Registration!
+- By registering a concrete type in the container, you tell the container how to instantiate the concrete type and what interface it services.
+@ulend
 
 ---
 
