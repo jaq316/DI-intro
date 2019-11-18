@@ -66,7 +66,7 @@ A dependent class have properties, where all dependencies are set.
 
 @[1-15, zoom-17](Concrete implementation of an interface)
 
----
++++
 
 ## Dependencies should be interfaces
 
@@ -76,7 +76,17 @@ A dependent class have properties, where all dependencies are set.
 - Other classes in your app will rely only on the interface and not the concrete implementation of the interface
 @ulend
 
+--- 
+
 ## What Dependency Injection looks like
+
++++?code=samples/constructor-before-di.cs&lang=cs zoom-12
+
+### Before DI
+
++++?code=samples/constructor.cs&lang=cs zoom-12
+
+### After DI
 
 ---
 
