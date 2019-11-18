@@ -1,9 +1,6 @@
 # Layout
 layout : center
 
-# Look-and-Feel
-logo : https://lightstone.co.za/images/LS-logo.jpg
-
 # Behavior
 transition : slide
 
