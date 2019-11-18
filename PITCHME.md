@@ -105,7 +105,7 @@ A dependent class have properties, where all dependencies are set.
 ## The Dependency Injection Container
 @snapend
 
-@snap[midpoint span-100 text-08]
+@snap[south span-100 text-08]
 @ul
 - The container is the very heart of your DI implementation
 - Interfaces are mapped to concrete types so that the container can provide the correct implementation when an interface is required
