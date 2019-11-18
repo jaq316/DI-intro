@@ -58,6 +58,14 @@ A dependent class have properties, where all dependencies are set.
 
 ## Interfaces & Classes
 
++++?code=samples/IGearLever.cs&lang=cs zoom-12
+
+@[1-5, zoom-17](Interface: A contract or specification)
+
++++?code=samples/ManualGearLever.cs&lang=cs zoom-12
+
+@[1-15, zoom-17](Concrete implementation of an interface)
+
 ---
 
 ## What Dependency Injection looks like
