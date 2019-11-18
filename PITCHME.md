@@ -136,17 +136,31 @@ A dependent class have properties, where all dependencies are set.
 
 ## Console app example
 
+### Coming soon!
+
 ---
 
 ## Mocking
+
+### Coming soon!
 
 --- 
 
 ## Unit test example
 
+### Coming soon!
+
 ---
 
 ## Payoffs of Dependency Injection
+
+@ul
+- Infinitely easier unit testing of code
+- Loosely coupled software
+- Just aSk for whatever services you want in the constuctor. Your DI container will deliver!
+- As a consumer, you don't need to care about the lifetime of an object. It is taken care of on registration
+- Swap out implementations of interfaces 
+@ulend
 
 
 ---
