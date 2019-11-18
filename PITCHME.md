@@ -42,13 +42,17 @@ A dependent class has a constructor, where all dependencies are set. They will b
 
 +++?code=samples/constructor-injection.cs&lang=cs
 
-@[8-11, zoom-17](Constructor parameters)
+@[9-12, zoom-17](Constructor parameters provided by the IoC container)
 
 +++
 
 ### Property Injection
 
 A dependent class have properties, where all dependencies are set.
+
++++?code=samples/property-injection.cs&lang=cs
+
+@[3-6, zoom-17](Properties are set by the IoC container)
 
 ---
 

@@ -2,19 +2,19 @@ public class Driver
 {
     readonly _gearLever;
     readonly _clutchPedal;
-    readonly throttlePeddle;
+    readonly _throttlePedal;
     readonly _breakPedal;
 
     public Driver(
             IGearLever gearLever, 
             IClutchPedal clutchPedal, 
-            IThrottlePedal throttlePeddle,
+            IThrottlePedal throttlePedal,
             IBreakPedal breakPedal
         )
     {
             _gearLever = gearLever;    
             _clutchPedal = clutchPedal;    
-            _throttlePeddle = throttlePeddle;    
+            _throttlePedal = throttlePedal;    
             _breakPedal = breakPedal;    
     }
     
