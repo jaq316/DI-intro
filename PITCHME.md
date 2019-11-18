@@ -1,11 +1,12 @@
-# Dependency Injection
-## An intoduction
+@snap[north headline span-80] @css[heading](Dependency Injection) @snapend
 
----
+@snap[south byline] A @color#e49436 An intoduction @snapend
+
++++
 
 ### What is Dependency Injection?
 
-+++
+---
 
 ## Different flavors of Dependency Injection
 
