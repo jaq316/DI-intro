@@ -1,11 +1,8 @@
 # Layout
-layout : center-right
+layout : center
 
 # Look-and-Feel
 logo : https://lightstone.co.za/images/LS-logo.jpg
-theme : night
-theme-override : assets/css/PITCHME.css
-highlight : ir-black
 
 # Behavior
 transition : slide
