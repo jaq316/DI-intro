@@ -51,13 +51,15 @@ The dependencies are provided through a class constructor
 
 +++
 
-### Property Injection
+### Setter Injection
 
 The client exposes a setter method that the DI container uses to inject the dependency
 
 +++?code=samples/property.cs&lang=cs zoom-12
 
 @[3-8, zoom-17](Properties are set by the DI container)
+
++++
 
 ### Interface injection
 
