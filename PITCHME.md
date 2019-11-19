@@ -4,7 +4,7 @@
 ## Dependency Injection
 @snapend
 
-@snap[north span-south]
+@snap[south span-100]
 ### An intoduction
 @snapend
 
