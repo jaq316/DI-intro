@@ -1,8 +1,12 @@
 ---?image=assets/img/intro.jpeg&size=50% 50%
 
+@snap[north span-100]
 ## Dependency Injection
+@snapend
 
+@snap[north span-south]
 ### An intoduction
+@snapend
 
 ---
 
