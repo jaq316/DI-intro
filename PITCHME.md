@@ -14,11 +14,11 @@
 
 +++
 
-## What is a dependency?
+### What is a dependency?
 
 +++
 
-### Merriam-Webster Dictionary
+#### Merriam-Webster Dictionary
 > something that is dependent on something else
 
 +++
@@ -27,7 +27,7 @@
 
 +++
 
-## What is a dependency injection?
+### What is a dependency injection in software?
 
 +++
 
