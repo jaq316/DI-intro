@@ -2,6 +2,7 @@
 
 ### An intoduction
 
+![Into](/assets/img/intro.jpeg)
 ---
 
 ## What is Dependency Injection?
