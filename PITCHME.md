@@ -1,6 +1,6 @@
 ---?image=assets/img/intro.jpeg
 
-## Dependency Injection
+@css[text-white](## Dependency Injection)
 
 ### An intoduction
 
