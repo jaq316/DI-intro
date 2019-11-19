@@ -39,6 +39,20 @@
 
 ---
 
+## What Dependency Injection looks like
+
++++?code=samples/constructor-before-di.cs&lang=cs zoom-12
+
+@[4-9, zoom-17](Notice all the "new" keywords?)
+
+### Before DI
+
++++?code=samples/constructor.cs&lang=cs zoom-12
+
+### After DI
+
+---
+
 ## Different flavors of Dependency Injection
 
 @ul
@@ -100,19 +114,6 @@ The dependency provides an injector method that will inject the dependency into 
 
 --- 
 
-## What Dependency Injection looks like
-
-+++?code=samples/constructor-before-di.cs&lang=cs zoom-12
-
-@[4-9, zoom-17](Notice all the "new" keywords?)
-
-### Before DI
-
-+++?code=samples/constructor.cs&lang=cs zoom-12
-
-### After DI
-
----
 
 @snap[north span-100 ]
 ## The Dependency Injection Container
