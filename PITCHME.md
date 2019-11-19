@@ -1,6 +1,6 @@
-## Dependency Injection
+---?image=assets/img/intro.jpeg&size=50% 50%
 
-![Intro](assets/img/intro.jpeg)
+## Dependency Injection
 
 ### An intoduction
 
