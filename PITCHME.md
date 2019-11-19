@@ -101,7 +101,7 @@ If there is any change in objects, then DI looks into it and it should not conce
 ## Dependencies should be interfaces
 
 @ul
-- We want ***ALL*** of out dependencies to be based on an interface
+- We want ***ALL*** of our dependencies to be based on an interface
 - Any service code you write should have an interface
 - Other classes in your app will rely only on the interface and not the concrete implementation of the interface
 @ulend
