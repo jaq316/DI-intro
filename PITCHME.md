@@ -145,7 +145,7 @@ The dependency provides an injector method that will inject the dependency into 
 
 ## DI Container's responsibilities
 
-If there is any change in objects, then DI looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI’s responsibility to provide the appropriate objects to the class.
+If there is any change in objects, then the DI container looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI container’s responsibility to provide the appropriate objects to the class.
 
 +++
 
