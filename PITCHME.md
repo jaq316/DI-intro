@@ -71,10 +71,13 @@ The dependency provides an injector method that will inject the dependency into 
 
 ## Dependency injection's responsibilities
 
+@ol
+
 1. Create the objects
 2. Know which classes require those objects
 3. And provide them all those objects
 
+@olend
 If there is any change in objects, then DI looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI’s responsibility to provide the appropriate objects to the class.
 
 ---
