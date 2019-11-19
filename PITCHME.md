@@ -69,6 +69,16 @@ The dependency provides an injector method that will inject the dependency into 
 
 ---
 
+## Dependency injection's responsibilities
+
+1. Create the objects
+2. Know which classes require those objects
+3. And provide them all those objects
+
+If there is any change in objects, then DI looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI’s responsibility to provide the appropriate objects to the class.
+
+---
+
 ## Interfaces & Classes
 
 +++?code=samples/IGearLever.cs&lang=cs zoom-12
@@ -105,15 +115,6 @@ The dependency provides an injector method that will inject the dependency into 
 
 ---
 
-## Why use Dependency Injection?
-
-@ul
-- Makes writing unit test code super easy. No complex setups! (Use mocks when unit testing)
-- Promotes writing code where the services your code require can be **loosely coupled** with your code
-@ulend
-
----
-
 @snap[north span-100 ]
 ## The Dependency Injection Container
 @snapend
@@ -133,7 +134,7 @@ The dependency provides an injector method that will inject the dependency into 
 # DI Magic
 
 @ul
-- When you need some service in a class, just add the interface to its constructor. The container will magically provide it.
+- When you need some service in a class, just add the interface to its constructor. The container will "magically" provide it.
 - It is **AMAZING**!
 @ulend
 +++
@@ -147,34 +148,23 @@ The dependency provides an injector method that will inject the dependency into 
 
 ---
 
-## Console app example
-
-### Coming soon!
-
----
-
-## Mocking
-
-### Coming soon!
-
---- 
-
-## Unit test example
-
-### Coming soon!
-
----
-
-## Payoffs of Dependency Injection
+## Benefits of using DI
 
 @ul
 - Infinitely easier unit testing of code
-- Loosely coupled software
-- Just ask for whatever services you want in the constuctor. Your DI container will deliver!
-- As a consumer, you don't need to care about the lifetime of an object. It is taken care of on registration
+- Boiler plate code is reduced, as initializing of dependencies is done by the injector component.
+- Helps to enable loose coupling
+- Extending the application becomes easier
 - Swap out implementations of interfaces 
 @ulend
 
++++
+
+# Disadvantages of DI
+
+- It’s a bit complex to learn, and if overused can lead to management issues and other problems.
+- Many compile time errors are pushed to run-time.
+- Dependency injection frameworks are implemented with reflection or dynamic programming. This can hinder use of IDE automation, such as "find references", "show call hierarchy" and safe refactoring.
 
 ---
 
@@ -183,3 +173,12 @@ The dependency provides an injector method that will inject the dependency into 
 ---
 
 # Thank you!
+
+@snap[west span-50]
+![GitHub](/assets/img/github-qr.png)
+https://github.com/jaq316/DI-intro
+@snapend
+
+@snap[west span-50]
+![GitPitch](/assets/img/gitpitch-qr.png)
+@snapend
