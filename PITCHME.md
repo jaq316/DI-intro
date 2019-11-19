@@ -69,11 +69,8 @@ The dependency provides an injector method that will inject the dependency into 
 
 ---
 
-@snap[north span-100 ]
-### Dependency injection's responsibilities
-@snapend
+## Dependency injection's responsibilities
 
-@snap[south-west span-30 ]
 @ol
 
 1. Create the objects
@@ -81,13 +78,11 @@ The dependency provides an injector method that will inject the dependency into 
 3. And provide them all those objects
 
 @olend
-@snapend
 
-@snap[south-east span-70 ]
-@ul
-- If there is any change in objects, then DI looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI’s responsibility to provide the appropriate objects to the class.
-@ulend
-@snapend
++++
+## Dependency injection's responsibilities
+
+If there is any change in objects, then DI looks into it and it should not concern the class using those objects. This way if the objects change in the future, then its DI’s responsibility to provide the appropriate objects to the class.
 
 ---
 
