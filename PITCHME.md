@@ -1,8 +1,9 @@
+---?image=assets/img/intro.jpeg
+
 ## Dependency Injection
 
 ### An intoduction
 
-![Into](/assets/img/intro.jpeg)
 ---
 
 ## What is Dependency Injection?
