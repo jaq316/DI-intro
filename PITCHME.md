@@ -28,9 +28,6 @@
 +++
 
 ![It's a dependency](/assets/img/its-a-dependency.jpeg)
-[^footnote]
-
-[^footnote]: Image courtesy of freecodecamp.org
 
 ---
 
