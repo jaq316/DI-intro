@@ -157,7 +157,7 @@ If there is any change in objects, then DI looks into it and it should not conce
 
 @ul
 - ### Registration!
-- By registering a concrete type in the container, you tell the container how to instantiate the concrete type and what interface it services.
+- By registering a concrete type in the container, you tell the container how to instantiate the concrete type and what interface it serves.
 @ulend
 
 ---
