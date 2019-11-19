@@ -70,7 +70,7 @@ The dependency provides an injector method that will inject the dependency into 
 ---
 
 @snap[north span-100 ]
-## Dependency injection's responsibilities
+### Dependency injection's responsibilities
 @snapend
 
 @snap[south-west span-50 ]
