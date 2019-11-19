@@ -1,13 +1,8 @@
----?image=assets/img/intro.jpeg&size=cover&opacity=20
+## Dependency Injection
 
-@snap[north span-100 text-16 text-bold text-black]
-Dependency Injection
-@snapend
+![Intro](assets/img/intro.jpeg)
 
-
-@snap[center  text-10 text-lowercase]
-An intoduction
-@snapend
+### An intoduction
 
 ---
 
