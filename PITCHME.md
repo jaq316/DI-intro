@@ -1,6 +1,6 @@
 ---?image=assets/img/intro.jpeg
 
-@snap[north text-smallcaps text-14 text-white]
+@snap[north text-smallcaps text-16 text-bold text-white]
 Dependency Injection
 @snapend
 
