@@ -34,15 +34,16 @@
 ## Different flavors of Dependency Injection
 
 @ul
-- Contructor Injection
-- Property Injection
+- Contructor injection
+- Setter injection (aka Property injection)
+- Interface injection
 @ulend
 
 +++
 
 ### Contructor Injection
 
-A dependent class has a constructor, where all dependencies are set. They will be provided by the DI container
+The dependencies are provided through a class constructor
 
 +++?code=samples/constructor.cs&lang=cs zoom-12
 
@@ -52,11 +53,17 @@ A dependent class has a constructor, where all dependencies are set. They will b
 
 ### Property Injection
 
-A dependent class have properties, where all dependencies are set.
+The client exposes a setter method that the DI container uses to inject the dependency
 
 +++?code=samples/property.cs&lang=cs zoom-12
 
 @[3-8, zoom-17](Properties are set by the DI container)
+
+### Interface injection
+
+The dependency provides an injector method that will inject the dependency into any client passed to it. Clients must implement an interface that exposes a setter method that accepts the dependency.
+
+*Very rarely seen in the wild*
 
 ---
 
