@@ -176,10 +176,10 @@ If there is any change in objects, then DI looks into it and it should not conce
 # Thank you!
 @snapend
 
-@snap[west span-30]
+@snap[south-west span-30]
 ![GitHub](/assets/img/github-qr.png)
 @snapend
 
-@snap[east span-30]
+@snap[south-east span-30]
 ![GitPitch](/assets/img/gitpitch-qr.png)
 @snapend
