@@ -1,6 +1,6 @@
 ---?image=assets/img/intro.jpeg&size=cover&opacity=20
 
-@snap[north span-100 text-16 text-bold text-white w]
+@snap[north span-100 text-16 text-bold text-gold]
 Dependency Injection
 @snapend
 
