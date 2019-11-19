@@ -1,8 +1,13 @@
 ---?image=assets/img/intro.jpeg
 
-@css[text-white](## Dependency Injection)
+@snap[north text-smallcaps text-white]
+## Dependency Injection
+@snapend
 
+
+@snap[center text-lowercase]
 ### An intoduction
+@snapend
 
 ---
 
