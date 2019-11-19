@@ -172,7 +172,9 @@ If there is any change in objects, then DI looks into it and it should not conce
 
 ---
 
+@snap[north span-100]
 # Thank you!
+@snapend
 
 @snap[west span-30]
 ![GitHub](/assets/img/github-qr.png)
