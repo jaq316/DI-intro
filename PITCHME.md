@@ -169,9 +169,11 @@ If there is any change in objects, then DI looks into it and it should not conce
 
 ## Disadvantages of DI
 
+@ul
 - It’s a bit complex to learn, and if overused can lead to management issues and other problems.
 - Many compile time errors are pushed to run-time.
 - Dependency injection frameworks are implemented with reflection or dynamic programming. This can hinder use of IDE automation, such as "find references", "show call hierarchy" and safe refactoring.
+@ulend
 
 ---
 
