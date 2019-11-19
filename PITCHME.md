@@ -176,7 +176,6 @@ If there is any change in objects, then DI looks into it and it should not conce
 
 @snap[west span-30]
 ![GitHub](/assets/img/github-qr.png)
-https://github.com/jaq316/DI-intro
 @snapend
 
 @snap[east span-30]
